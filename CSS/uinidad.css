@@ -1,0 +1,113 @@
+* Estilo general */
+
+body {
+
+margin:0;
+
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Menú */
+
+nav{
+
+background-color: #333;
+
+padding: 15px;
+
+text-align:center;
+
+}
+
+/* Enlaces */
+
+nav a{
+
+color: white;
+
+text-decoration:none;
+
+margin:20px;
+
+font-size: 18px;
+
+padding: 10px 15px;
+
+}
+
+/* Efecto al pasar el mouse */
+
+nav a:hover{
+
+background-color:#555;
+
+border-radius:5px;
+
+}
+
+
+*{
+     padding: 0;
+     margin: 0;
+    }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    color:white;
+}
+
+.contenedor{
+    background: tomato;
+    width: 100%;
+    margin: autor;
+
+}
+
+p, ul{
+background:rgba(0,0,0,0.6);
+padding:20px;
+border-radius:15px;
+font-size:20px;
+width:80%;
+margin:20px o 20px 40px;
+}
+
+header{
+    height:600px;
+    background-image: url("../imagen/ing.jpg");
+   background-position: center;
+   background-size: cover;
+
+}
+
+main{
+    background-image: url("../imagen/foto.jpg");
+    padding: 170px 30px;
+}
+
+main .foto{
+width: 150px;
+height: 150px;
+background-color:teal;
+border-radius: 50%;
+margin: -200px 0 20px 0;
+border:7px solid #ffffff;
+}
+
+main .foto img{
+    width: 100%;
+    border-radius:50%;   
+}
+
+
+footer{
+    background:rgb(32, 32, 32);
+    text-align: center;
+    padding: 30px;
+    color:#323131;
+
+}
+
